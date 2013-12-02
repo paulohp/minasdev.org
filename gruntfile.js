@@ -18,7 +18,7 @@ module.exports = function( grunt ) {
       },
       compass:{
         local:{
-          url: "http://minasdev.org/"
+          url: "http://localhost/minasdev/dev/"
         },
         remote:{
           url: "???"
@@ -138,14 +138,7 @@ module.exports = function( grunt ) {
                     search: '/dev',
                     replace: '',
                     flags: 'g'
-                },
-                {
-                    name: 'bar',
-                    search: '/test',
-                    replace: '',
-                    flags: 'g'
-                }
-            ]
+                }            ]
         }
     }
 

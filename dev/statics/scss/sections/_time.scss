@@ -117,7 +117,7 @@
   .infos{
     float: left;
     margin-left: 20px;
-    h2, h3{
+    h2, h3, .organizador-company{
       font-family: "Lato-Regular", Arial, sans-serif;
       display: block;
     }
@@ -130,7 +130,19 @@
     h3{
       color: #666666;
       font-size: 12px;
-      margin: 10px 0;
+      margin: 10px 0 5px;
+    }
+  }
+  .organizador-company{
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 0 0 10px 0;
+    display: block;
+    @include transition(all .2s ease-in);
+
+    &:hover{
+      color: #e62319;
     }
   }
   .organizador-social{
