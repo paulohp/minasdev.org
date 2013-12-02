@@ -3,3 +3,4 @@ prod/
 test/
 .sass-cache
 node_modules
+*.log
