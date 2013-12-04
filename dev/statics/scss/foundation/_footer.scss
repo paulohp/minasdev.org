@@ -23,6 +23,17 @@ footer{
   }
 }
 
+.mailto-footer-minasdev{
+  color: rgba(#fff, 0.5);
+  @include transition(color 0.3s ease);
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Lato-Light", Arial, sans-serif;
+  &:hover{
+    color:#fff;
+  }
+}
+
 .footer-apoios {
   padding-bottom: 30px;
   h1{

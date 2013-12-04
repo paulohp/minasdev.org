@@ -42,7 +42,7 @@ header{
   li{
       margin: 0 15px;
   }
-  a{
+  .social-footer-icons{
       opacity:0.5;
       @include transition(opacity .2s linear);
       display: block;
