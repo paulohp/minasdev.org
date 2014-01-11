@@ -18,6 +18,8 @@
 <body>
   <header>
     <h1><%= @document.title || @site.title %></h1>
+
+    <%= @partial('nav', @)%>
   </header>
   <article>
     <%- @content %>
