@@ -1,6 +1,17 @@
-.DS_Store
-prod/
-test/
-.sass-cache
-node_modules
-*.log
+# v1.3.5 October 31, 2013
+# https://github.com/bevry/base
+
+# Temp Files
+**/*.log
+
+# Build Files
+build/
+components/
+bower_components/
+node_modules/
+out/
+
+# =====================================
+# CUSTOM MODIFICATIONS
+
+# None
