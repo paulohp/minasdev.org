@@ -2,6 +2,8 @@
 
 Site for minasdev.org, built with [DocPad](http://docpad.org).
 
+version: 0.0.0
+
 
 ## Dependencies
 
