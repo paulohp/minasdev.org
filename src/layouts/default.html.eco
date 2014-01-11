@@ -18,6 +18,13 @@
 <body>
   <%= @partial('header', @)%>
   <article>
+  <header role="banner">
+    <h1><%= @document.title || @site.title %></h1>
+
+    <%= @partial('header', @)%>
+  </header>
+
+  <article role="main">
     <%- @content %>
   </article>
 

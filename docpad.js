@@ -28,6 +28,17 @@ var docpadConfig = {
         "main.js"
       ]
     }
+  },
+  plugins:{
+      stylus:{
+          stylusLibraries:{
+            nib: true
+          },
+          stylusOptions:{
+            compress: true,
+            'include css': true
+      }
+    }
   }
 };
 
