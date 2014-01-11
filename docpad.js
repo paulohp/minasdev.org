@@ -4,29 +4,32 @@
  */
 
 var docpadConfig = {
+
   templateData: {
     site: {
+
       // The default title of our website.
       title: "minasdev.org",
 
       // The production url of our website.
-      url: "http://example.com",
+      url: "http://minasdev.org",
 
       // The website description (for SEO).
-      description: "When your website appears in search results in say Google, the text here will be shown underneath your website's title.",
+      description: "Somos um Movimento que visa fomentar o cenário de desenvolvimento de Minas Gerais. Faça parte também!",
 
       // The website keywords (for SEO) separated by commas
-      keywords: "place, your, website, keywoards, here",
+      keywords: "minasdev, minas, usergroup, programming, development",
 
       // The cascading stylesheets for the site.
       styles: [
-        "main.css"
+        "main.css.stylus"
       ],
 
       // The JavaScript files for the site.
       scripts: [
         "main.js"
       ]
+
     }
   },
   plugins:{
