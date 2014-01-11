@@ -11,6 +11,8 @@
     "docpad-plugin-partials": "~2.8.1"
   },
   "devDependencies": {
+    "grunt": "=0.4.2",
+    "grunt-bump": "=0.0.13",
     "docpad": "~6.56.0",
     "docpad-plugin-livereload": "~2.5.3"
   },
