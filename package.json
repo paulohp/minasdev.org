@@ -8,7 +8,8 @@
   "dependencies": {
     "docpad": "~6.56.0",
     "docpad-plugin-eco": "~2.0.2",
-    "docpad-plugin-partials": "~2.8.1"
+    "docpad-plugin-partials": "~2.8.1",
+    "docpad-plugin-stylus": "~2.5.0"
   },
   "devDependencies": {
     "docpad": "~6.56.0",
