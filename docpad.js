@@ -27,7 +27,7 @@ var docpadConfig = {
 
       // The JavaScript files for the site.
       scripts: [
-        "main.js"
+        "/scripts/main.js"
       ]
 
     }
