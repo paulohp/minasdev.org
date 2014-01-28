@@ -1,1 +1,18 @@
-<h1>Header partial</h1>
+<div class="header-bar">
+  <div class="wrapper">
+    <h1 class="logo ir">minasdev.org</h1>
+    <div class="slogan">COMUNIDADE DE DESENVOLVEDORES DE<br />MINAS GERAIS</div>
+    <ul class="menu">
+      <li>Sobre</li>
+      <li>Links úteis</li>
+      <li>Projetos</li>
+      <li>Weekly News</li>
+      <li>Parceiros</li>
+      <li>Contato</li>
+    </ul>
+    <div class="search-container">
+      <input type="text" name="search"/>
+      <input type="submit" value="Ir"/>
+    </div>
+  </div>
+</div>
