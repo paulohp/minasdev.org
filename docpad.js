@@ -22,7 +22,7 @@ var docpadConfig = {
 
       // The cascading stylesheets for the site.
       styles: [
-        "styles/main.css"
+        "assets/style.css"
       ],
 
       // The JavaScript files for the site.
