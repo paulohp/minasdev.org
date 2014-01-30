@@ -22,7 +22,7 @@ var docpadConfig = {
 
       // The cascading stylesheets for the site.
       styles: [
-        "styles/main.css"
+        "styles/style.css"
       ],
 
       // The JavaScript files for the site.
@@ -38,7 +38,7 @@ var docpadConfig = {
         nib: false
       },
       stylusOptions:{
-        compress: true,
+        expand: true,
         'include css': true
       }
     }
