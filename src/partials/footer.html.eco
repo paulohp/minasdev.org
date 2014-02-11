@@ -1,8 +1,54 @@
-<!-- NAVIGATION -->
-<nav id="nav">
-  <ul class="wrapper">
-    <li>test</li>
-  </ul>
-</nav>
+<!-- emmet -->
+<!-- (aside.comunity(.container((h3.logo-footer>lorem4)+div.social-footer>ul.social-itens>li.social-item-$*4>{item$})))+(footer(.container>(nav>ul.menu-footer>li.menu-footer-item$*6>{lorem3})+(form.footer-form.form>(div.form-field.form-text*2>input[type=text])+(div.form-small.form-comment>textarea)+(div.form-submit.form-button>input[type=submit]))+section.partners(h2.title({Parceiros})+(ul.partners-logos>li.logos-item$*6>{item$}))+section.employeers(h2.title({colaboradores})+(span.employeers-item$*3>{item$})+(span.join-us>a.form-button>{Participe!})))) -->
 
-<hr>
+<aside class="comunity">
+	<div class="container">
+		<h3 class="logo-footer">Lorem ipsum dolor sit.</h3>
+		<div class="social-footer">
+			<ul class="social-itens">
+				<li class="social-item-1">item1</li>
+				<li class="social-item-2">item2</li>
+				<li class="social-item-3">item3</li>
+				<li class="social-item-4">item4</li>
+			</ul>
+		</div>
+	</div>
+</aside>
+<footer>
+	<div class="container">
+		<nav class="menu-footer">
+			<ul class="menu-footer-itens">
+				<li class="menu-footer-item1">lorem3</li>
+				<li class="menu-footer-item2">lorem3</li>
+				<li class="menu-footer-item3">lorem3</li>
+				<li class="menu-footer-item4">lorem3</li>
+				<li class="menu-footer-item5">lorem3</li>
+				<li class="menu-footer-item6">lorem3</li>
+			</ul>
+		</nav>
+		<form action="" class="footer-form form">
+			<div class="form-field form-text"><input type="text"></div>
+			<div class="form-field form-text"><input type="text"></div>
+			<div class="form-small form-comment"><textarea name="" id="" cols="30" rows="10"></textarea></div>
+			<div class="form-submit form-button"><input type="submit"></div>
+		</form>
+		<section class="partners">
+			<h2 class="title">Parceiros</h2>
+			<ul class="partners-logos">
+				<li class="logos-item1">item1</li>
+				<li class="logos-item2">item2</li>
+				<li class="logos-item3">item3</li>
+				<li class="logos-item4">item4</li>
+				<li class="logos-item5">item5</li>
+				<li class="logos-item6">item6</li>
+			</ul>
+		</section>
+		<section class="employeers">
+			<h2 class="title">colaboradores</h2>
+			<span class="employeers-item1">item1</span>
+			<span class="employeers-item2">item2</span>
+			<span class="employeers-item3">item3</span>
+			<span class="join-us"><a href="" class="form-button">Participe!</a></span>
+		</section>
+	</div>
+</footer>
