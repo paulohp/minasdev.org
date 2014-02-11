@@ -16,7 +16,7 @@
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
-  <header role="banner">
+  <header id="header" role="banner">
     <%= @partial('header', @)%>
   </header>
 

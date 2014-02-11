@@ -17,9 +17,12 @@
   </div>
 </div>
 <div class="header-body">
-  <div class="header-resume-container">
+  <div class="resume-container">
     <div class="header-resume-top-left-box">
-      Header Resume Feed
+      <h2>
+        <span class="header-resume-icon ir">paper clip</span>
+        FEED
+      </h2>
     </div>
     <div class="header-resume-top-right-box">
       Header Resume Events
