@@ -18,6 +18,17 @@
 </div>
 <div class="header-body">
   <div class="header-resume-container">
-    Header resume
+    <div class="header-resume-top-left-box">
+      Header Resume Feed
+    </div>
+    <div class="header-resume-top-right-box">
+      Header Resume Events
+    </div>
+    <div class="header-resume-bottom-left-box">
+      Header Resume Monthly
+    </div>
+    <div class="header-resume-bottom-right-box">
+      Header Resume Social
+    </div>
   </div>
 </div>
