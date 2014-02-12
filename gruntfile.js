@@ -113,7 +113,7 @@ module.exports = function( grunt ) {
       },
       scss: {
         files: ['<%= metadata.local.dev.path %>statics/scss/**/*.scss'],
-        tasks: ['compass:test', 'regex-replace:test']
+        tasks: ['compass:test']
       },
       js: {
         files: ['<%= metadata.local.dev.path %>statics/scripts/**/*.js'],
@@ -158,7 +158,9 @@ module.exports = function( grunt ) {
 
   grunt.registerTask('images', ['clean:testIMAGES','imagemin:default','copy:testIMAGES']);
 
-  grunt.registerTask('local', ['clean:test', 'copy:test', 'compass:test', 'regex-replace:test', 'uglify:test', 'htmlmin:test']);
+  grunt.registerTask('local', ['clean:test', 'copy:test', 'compass:test', 'uglify:test', 'htmlmin:test']);
+
+  grunt.registerTask('build', ['clean:test', 'copy:test', 'compass:test', 'regex-replace:test', 'uglify:test', 'htmlmin:test']);
 
   grunt.registerTask('prod', []);
 

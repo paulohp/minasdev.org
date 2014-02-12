@@ -47,27 +47,27 @@
     font-size: 30px;
     width: 96%;
     font-family: "Lato-LightItalic", Arial, sans-serif;
-    color: #adadad;
+    color: #888;
     &::-webkit-input-placeholder {
-      color: #adadad;
+      color: #888;
       text-transform: uppercase;
       font-family: "Lato-LightItalic", Arial, sans-serif;
     }
 
     &:-moz-placeholder { /* Firefox 18- */
-      color: #adadad;
+      color: #888;
       text-transform: uppercase;
       font-family: "Lato-LightItalic", Arial, sans-serif;
     }
 
     &::-moz-placeholder {  /* Firefox 19+ */
-      color: #adadad;
+      color: #888;
       text-transform: uppercase;
       font-family: "Lato-LightItalic", Arial, sans-serif;
     }
 
     &:-ms-input-placeholder {
-      color: #adadad;
+      color: #888;
       text-transform: uppercase;
       font-family: "Lato-LightItalic", Arial, sans-serif;
     }
