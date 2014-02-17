@@ -1,8 +1,15 @@
 <div class="header-bar">
-  <div class="wrapper">
-    <h1 class="i logo ir">minasdev.org</h1>
-    <div class="slogan">COMUNIDADE DE DESENVOLVEDORES DE<br />MINAS GERAIS</div>
-    <ul class="menu">
+  <div class="container">
+
+    <h3 class="i header-logo">
+      <a href="/" class="header-logo-link"> 
+        minasdev.org
+      </a>
+    </h3>
+
+    <h2 class="header-slogan">COMUNIDADE DE DESENVOLVEDORES DE<br />MINAS GERAIS</h2>
+
+    <ul class="header-menu">
       <li>Sobre</li>
       <li>Links úteis</li>
       <li>Projetos</li>
@@ -10,28 +17,15 @@
       <li>Parceiros</li>
       <li>Contato</li>
     </ul>
-    <div class="search-container">
+
+    <div class="header-search">
       <input type="text" name="search"/>
       <input type="submit" value="Ir"/>
     </div>
-  </div>
-</div>
-<div class="header-body">
-  <div class="resume-container">
-    <div class="header-resume-top-left-box">
-      <h2>
-        <span class="header-resume-icon ir">paper clip</span>
-        FEED
-      </h2>
-    </div>
-    <div class="header-resume-top-right-box">
-      Header Resume Events
-    </div>
-    <div class="header-resume-bottom-left-box">
-      Header Resume Monthly
-    </div>
-    <div class="header-resume-bottom-right-box">
-      Header Resume Social
-    </div>
+
+    <aside class="header-social">
+      
+    </aside>
+
   </div>
 </div>

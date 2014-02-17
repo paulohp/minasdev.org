@@ -1,6 +1,3 @@
-<!-- emmet -->
-<!-- (aside.comunity(.container((h3.logo-footer>lorem4)+div.social-footer>ul.social-itens>li.social-item-$*4>{item$})))+(footer(.container>(nav>ul.menu-footer>li.menu-footer-item$*6>{lorem3})+(form.footer-form.form>(div.form-field.form-text*2>input[type=text])+(div.form-small.form-comment>textarea)+(div.form-submit.form-button>input[type=submit]))+section.partners(h2.title({Parceiros})+(ul.partners-logos>li.logos-item$*6>{item$}))+section.employeers(h2.title({colaboradores})+(span.employeers-item$*3>{item$})+(span.join-us>a.form-button>{Participe!})))) -->
-
 <aside class="comunity">
 	<div class="container">
 		<h3 class="logo-footer">Lorem ipsum dolor sit.</h3>

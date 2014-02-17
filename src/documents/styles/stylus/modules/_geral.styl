@@ -2,38 +2,21 @@
 
 body
   font  12px Helvetica, Arial, sans-serif
-  background-image url('/images/bg-body.jpg')
+  background-image url('/images/bg-body.jpg') 
   background-repeat no-repeat
   background-position center top  
 
 
-/* Geral */
+// geral
 
 .container
   container()
 
+.main
+  background #FFF 
+  overflow hidden
+
+// sprites
+
 .i
   background-image url('/images/sprites.png')
-
-.ir
-  background-color  transparent
-  border  0
-  overflow  hidden
-
-.ir:before
-  content  ''
-  display  block
-  width  0
-  height  150%
-
-
-.wrapper
-  position relative
-  width 960px
-  left 50%
-  margin-left -480px
-
-a.button
-  -webkit-border-radius  5px
-  -moz-border-radius  5px
-  border-radius  5px

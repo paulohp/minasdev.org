@@ -16,17 +16,16 @@
   <%- @getBlock('styles').add(@site.styles).toHTML() %>
 </head>
 <body>
-  <header id="header" role="banner">
+
+  <header class="header" role="banner">
     <%= @partial('header', @)%>
   </header>
 
-  <article role="main">
-    <%- @content %>
-  </article>
-
-  <section class="comunidade">
-    <%= @partial('comunidade', @)%>
-  </section>
+  <main class="main" role="conteudo">
+    <div class="container">
+      <%- @content %>
+    </div>
+  </main>
 
   <footer class="footer" role="contentinfo">
     <%= @partial('footer', @)%>

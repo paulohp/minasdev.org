@@ -1,22 +1,18 @@
 @import '../_global.styl'
 
-
-/* Headings */
-
-h2
-  font-size 20px
-
-
-/* Structure */
-
-#header 
+.header 
+  position relative
+  width 100%
+  overflow visible 
+  height 235px
+    
   .header-bar
     position relative
     margin 0
     height 63px
     background #313131
 
-  .logo
+  .header-logo
     position absolute
     width 139px
     height 139px
@@ -24,13 +20,19 @@ h2
     top 0
     left 0
     background-position -10px -10px
+    
+    .header-logo-link
+      width 139px
+      height 139px
+      display block
+      hide-text()
 
-  .slogan
+  .header-slogan
     position absolute
     top 120px
     left 165px
 
-  .menu
+  .header-menu
     position absolute
     margin 0
     padding 0
@@ -38,51 +40,47 @@ h2
     left 165px
     color #989898
 
-  .menu li
+  .header-menu li
     display block
     float left
     margin-right 23px
 
-  .search-container
+  .header-search
     width 205px
     height 30px
     position absolute
     top 18px
     right 0px
 
-  .header-body
-    height 648px
-    margin-bottom 160px
+.resume-container
+position absolute
+display table
+width 960px
+top 198px
+left 50%
+margin-left -480px
+border-bottom 4px solid #ed2b1f
 
-  .resume-container
-    position absolute
-    display table
-    width 960px
-    top 198px
-    left 50%
-    margin-left -480px
-    border-bottom 4px solid #ed2b1f
+.header-resume-top-left-box
+width 480px
+height 334px
+float left
+background #ededed
 
-  .header-resume-top-left-box
-    width 480px
-    height 334px
-    float left
-    background #ededed
+.header-resume-top-right-box
+width 480px
+height 334px
+float left
+background #dddddd
 
-  .header-resume-top-right-box
-    width 480px
-    height 334px
-    float left
-    background #dddddd
+.header-resume-bottom-left-box
+width 480px
+height 334px
+float left
+background #ffffff
 
-  .header-resume-bottom-left-box
-    width 480px
-    height 334px
-    float left
-    background #ffffff
-
-  .header-resume-bottom-right-box
-    width 480px
-    height 334px
-    float left
-    background #ececec
+.header-resume-bottom-right-box
+width 480px
+height 334px
+float left
+background #ececec
